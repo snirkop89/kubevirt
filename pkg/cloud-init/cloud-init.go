@@ -102,6 +102,7 @@ type DeviceData struct {
 	Type        DeviceMetadataType `json:"type"`
 	Bus         string             `json:"bus"`
 	Address     string             `json:"address"`
+	HostAddress string             `json:"host_address"`
 	MAC         string             `json:"mac,omitempty"`
 	Serial      string             `json:"serial,omitempty"`
 	NumaNode    uint32             `json:"numaNode,omitempty"`
